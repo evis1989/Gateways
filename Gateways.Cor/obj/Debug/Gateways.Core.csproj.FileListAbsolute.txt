@@ -1,0 +1,5 @@
+F:\WORK\Repositorio\Gateways\Gateways.Cor\bin\Debug\Gateways.Core.dll
+F:\WORK\Repositorio\Gateways\Gateways.Cor\bin\Debug\Gateways.Core.pdb
+F:\WORK\Repositorio\Gateways\Gateways.Cor\obj\Debug\Gateways.Core.csproj.CoreCompileInputs.cache
+F:\WORK\Repositorio\Gateways\Gateways.Cor\obj\Debug\Gateways.Core.dll
+F:\WORK\Repositorio\Gateways\Gateways.Cor\obj\Debug\Gateways.Core.pdb

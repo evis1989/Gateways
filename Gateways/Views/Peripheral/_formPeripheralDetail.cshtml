@@ -1,0 +1,30 @@
+﻿@model Gateways.Core.ViewModels.PeripheralViewModel
+
+<div class="row">
+    <div class="col d-flex">
+        <i class="fa fa-address-card-o  mt-1 mr-1" aria-hidden="true"></i>
+        <strong class="mr-2">@Html.DisplayNameFor(model => model.Uid)</strong>
+        @Html.DisplayFor(model => model.Uid)
+    </div>
+
+    
+</div>
+<div class="row mt-3">
+    <div class="col d-flex">
+        <i class="fa fa-id-card-o mt-1 mr-1" aria-hidden="true"></i>
+        <strong class="mr-2">@Html.DisplayNameFor(model => model.Vendor)</strong>
+        @Html.DisplayFor(model => model.Vendor)
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col d-flex">
+        <i class="fa fa-terminal mt-1 mr-1" aria-hidden="true"></i>
+        <strong class="mr-2">@Html.DisplayNameFor(model => model.CreatedDate)</strong>
+        @Html.DisplayFor(model => model.CreatedDate)
+    </div>
+</div>
+
+
+
+
+

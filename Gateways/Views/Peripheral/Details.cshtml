@@ -1,0 +1,29 @@
+﻿@model Gateways.Core.ViewModels.PeripheralViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+@using (Html.BeginForm())
+{
+    <div class="card shadow">
+        <div class="card-header d-flex justify-content-between">
+            <h3 class="card-title">Peripheral Details</h3>
+            <button title="Go Back" type="button" class="btn btn-circle btn-lg btn-primary"
+                    onclick="location.href='@Url.Action("Index", "Peripheral")'" t>
+                <i class="material-icons">fast_rewind</i>
+            </button>
+        </div>
+
+        <div class="card-body">
+            @Html.Partial("_formPeripheralDetail", Model)
+        </div>
+    </div>
+    <button type="button" class="btn fixed-btn btn-primary btn-circle btn-lg element-shadow-sm"
+            onclick="location.href='@Url.Action("Edit", "Peripheral", new { Id = Model.Id })'">
+
+        <i class="material-icons">mode_edit</i>
+    </button>
+
+}
+

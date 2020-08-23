@@ -1,0 +1,16 @@
+F:\WORK\Repositorio\Gateways\Gateways.Data\bin\Debug\netstandard2.0\Gateways.Data.deps.json
+F:\WORK\Repositorio\Gateways\Gateways.Data\bin\Debug\netstandard2.0\Gateways.Data.dll
+F:\WORK\Repositorio\Gateways\Gateways.Data\bin\Debug\netstandard2.0\Gateways.Data.pdb
+F:\WORK\Repositorio\Gateways\Gateways.Data\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+F:\WORK\Repositorio\Gateways\Gateways.Data\bin\Debug\netstandard2.0\System.Configuration.dll
+F:\WORK\Repositorio\Gateways\Gateways.Data\bin\Debug\netstandard2.0\System.Security.dll
+F:\WORK\Repositorio\Gateways\Gateways.Data\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.xml
+F:\WORK\Repositorio\Gateways\Gateways.Data\bin\Debug\netstandard2.0\System.Configuration.xml
+F:\WORK\Repositorio\Gateways\Gateways.Data\bin\Debug\netstandard2.0\System.Security.xml
+F:\WORK\Repositorio\Gateways\Gateways.Data\obj\Debug\netstandard2.0\Gateways.Data.csproj.CoreCompileInputs.cache
+F:\WORK\Repositorio\Gateways\Gateways.Data\obj\Debug\netstandard2.0\Gateways.Data.AssemblyInfoInputs.cache
+F:\WORK\Repositorio\Gateways\Gateways.Data\obj\Debug\netstandard2.0\Gateways.Data.AssemblyInfo.cs
+F:\WORK\Repositorio\Gateways\Gateways.Data\obj\Debug\netstandard2.0\Gateways.Data.csproj.CopyComplete
+F:\WORK\Repositorio\Gateways\Gateways.Data\obj\Debug\netstandard2.0\Gateways.Data.dll
+F:\WORK\Repositorio\Gateways\Gateways.Data\obj\Debug\netstandard2.0\Gateways.Data.pdb
+F:\WORK\Repositorio\Gateways\Gateways.Data\obj\Debug\netstandard2.0\Gateways.Data.csprojAssemblyReference.cache

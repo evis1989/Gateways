@@ -1,0 +1,15 @@
+﻿<!-- Notification -->
+@if (TempData["success"] != null)
+{
+    <script>
+        toastr.success("@TempData["msg"]");
+    </script>
+}
+else if (TempData["error"] != null)
+{
+    <script>
+        toastr.error("@TempData["msg"]");
+    </script>
+}
+
+

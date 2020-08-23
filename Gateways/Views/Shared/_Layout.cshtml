@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Gateways App</title>
+
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Plugins/css")
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/scripts")
+    @Scripts.Render("~/bundles/plugins");
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <a onclick="location.href='@Url.Action("Index", "Gateways")'">Gateway Admin</a>
+            </div>
+            <div class="text-white" style="cursor:pointer">
+                <i class="fa fa-home prefix" aria-hidden="true" onclick="location.href='@Url.Action("Index", "Gateways")'"></i>
+                <a onclick="location.href='@Url.Action("Index", "Gateways")'">Home</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-contents">@RenderBody()</div>
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

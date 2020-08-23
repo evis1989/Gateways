@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Gateways.Core.ViewModels.PeripheralViewModel>
+
+<table id="all_peripherals" class="table table-sm table-responsive-sm table-hover">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Uid)</th>
+            <th>@Html.DisplayNameFor(model => model.Vendor)</th>
+            <th>@Html.DisplayNameFor(model => model.Status)</th>
+            <th>Edit</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Uid)</td>
+            <td>@Html.DisplayFor(modelItem => item.Vendor)</td>
+            <td>@Html.DisplayFor(modelItem => item.Status)</td>
+            <td>
+                <button type="button" class="btn btn-sm"
+                        onclick="location.href='@Url.Action("Edit", "Peripheral", new { Id = item.Id })'">
+
+                    <i class="fa fa-pencil darken-1"></i>
+                </button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm"
+                        onclick="location.href='@Url.Action("Details", "Peripheral", new { Id = item.Id })'">
+
+                    <i class="fa fa-info-circle darken-1"></i>
+                </button>
+            </td>
+        </tr>
+        }
+    </tbody>
+
+</table>
+

@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Gateways.Core.ViewModels.GatewayViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="card shadow">
+    <div class="card-header d-flex justify-content-between">
+        <h3 class="card-title">Gateways List</h3>
+        <div style="cursor:pointer" class="pt-2">
+            <i class="fa fa-archive prefix" aria-hidden="true" onclick="location.href='@Url.Action("Index", "Peripheral")'"></i>
+            <a onclick="location.href='@Url.Action("Index", "Peripheral")'">Peripherals</a>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <!--Tab items -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link  active" href="#all" role="tab" data-toggle="tab" aria-selected="true">
+                    All
+                    <span class="badge badge-pill bg-primary text-white shadow-sm ml-1 pb-1 px-2">
+                        @Model.Count()
+                    </span>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content mt-lg-3">
+            <div role="tabpanel" class="tab-pane active" id="all">
+                @Html.Partial("_formAllGateways", Model)
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<button type="button" class="btn fixed-btn btn-primary btn-circle btn-lg element-shadow-sm"
+        onclick="location.href='@Url.Action("Create", "Gateways")'">
+
+    <i class="material-icons">add</i>
+</button>
+
+<!-- Notification Events -->
+@Html.Partial("_Notification")
+
+@section Scripts {
+    <script src="~/Scripts/component/gateways/view-index.js"></script>
+}
+
